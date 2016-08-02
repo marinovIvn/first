@@ -9,15 +9,18 @@
 		<link rel="stylesheet" type="text/css" href="css/font-awesome-animation.css">
 		<link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
   		<link rel="stylesheet" href="/resources/demos/style.css">
+  		<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 
 
 	</head>
 	<body>
+
 	<header id="main-header">
 		<nav id="main-nav">
 			<div id="logo">
 				<img src="images/it logo1.png">
 			</div>
+
 			<ul>
 				<li>
 					<a  href="#">Новини</a>
@@ -35,12 +38,49 @@
 					<a href="#">ЗА НАС</a>
 				</li>
 			</ul>
-		
-			<input id="search" type="text" name="search" placeholder="Search...">
-			
 		</nav>
+<nav class="reg">
+  <ul>
+    <li id="login">
+      <a id="login-trigger" href="#">
+        Log in <span>▼</span>
+      </a>
+      <div id="login-content">
+        <form>
+          <fieldset id="inputs">
+            <input id="username" type="email" name="Email" placeholder="Your email address" required>   
+            <input id="password" type="password" name="Password" placeholder="Password" required>
+          </fieldset>
+          <fieldset id="actions">
+            <input type="submit" id="submit" value="Log in">
+            <label><input type="checkbox" checked="checked"> Keep me signed in</label>
+          </fieldset>
+        </form>
+      </div>                     
+    </li>
+    <li id="signup">
+      <a href="">Sign up FREE</a>
+    </li>
+  </ul>
+</nav>
+			<!--Search-->
+						<div id="src" class="search">
+  							<input class="search_box" type="checkbox" id="search_box">
+  							<label class="icon-search" for="search_box"></label>
+  						<div class="search_form">
+    				<form action="#">
+      					<input type="text"><input class="sub" type="submit" value="search">
+    				</form>
+  						</div>
+						</div>
+
+
+			<!--endSearch-->
+		
+		
 		
 	</header>
+
 	<section id="main-content">
 <!--Slider-->
 			<div class="flexslider">
@@ -54,13 +94,11 @@
 				    <li>
 				      <img src="images/asd.jpg" />
 				    </li>
-				    <li>
-				      <img src="images/test.jpg" />
-				    </li>
 				  </ul>
 				</div>
 				
 <!--End-slider-->
+
 <!--First-events-->
 	<div class="hide">
 		<h2 class="headline">Събития</h2>
@@ -122,7 +160,7 @@
 <!--Banner-->
 	<div class="hide">
 		<div class="banner">
-			<img src="images/banner-bg.jpg">
+			<img src="images/banner-min-2.jpg">
 		</div>
 	</div>	
 <!--End-banner-->
@@ -174,7 +212,7 @@
 <!--Banner-->
 	<div class="hide">
 		<div class="banner">
-			<img src="images/banner-bg.jpg">
+			<img src="images/banner-min.jpg">
 		</div>
 	</div>
 <!--End-banner-->
@@ -202,120 +240,9 @@
 	</div>
 	</section>
 	<footer id="main-footer">
-	 <!--Test-->
-	 	<div id="dialog-form" title="Create new user">
-  <p class="validateTips">All form fields are required.</p>
- 
-  <form>
-    <fieldset>
-      <label for="name">Име</label>
-      <input type="text" name="name" id="name" value="Jane Smith" class="text ui-widget-content ui-corner-all">
-      <label for="email">Имейл</label>
-      <input type="text" name="email" id="email" value="jane@smith.com" class="text ui-widget-content ui-corner-all">
-      <label for="password">Парола</label>
-      <input type="password" name="password" id="password" value="xxxxxxx" class="text ui-widget-content ui-corner-all">
- 
-      <!-- Allow form submission with keyboard without duplicating the dialog button -->
-      <input type="submit" tabindex="-1" style="position:absolute; top:-1000px">
-    </fieldset>
-  </form>
-</div>
- 
- 
-<div id="users-contain" class="ui-widget">
-  
-  <table id="users" class="ui-widget ui-widget-content">
-    <thead>
-      <tr class="ui-widget-header ">
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-      </tr>
-    </tbody>
-  </table>
-</div>
-<button id="create-user">Регистрация</button>
 
- 
-	 <!--endTest-->
 	 <div id="fulllist">
-		<div class="list">
-			<ul>
-				<li>
-					<a href="#">Новини</a>
-				</li>
-				<li>
-					<a href="#">Събития</a>
-				</li>
-				<li>
-					<a href="#">Курсове</a>
-				</li>
-				<li>
-					<a href="#">Стажове</a>
-				</li>
-				<li>
-					<a href="#">ЗА НАС</a>
-				</li>
-				<li>
-					<a href="#">ЗА НАС</a>
-				</li>
-				<li>
-					<a href="#">ЗА НАС</a>
-				</li>
-			</ul>
-		</div>
-		<div class="list">
-			<ul>
-				<li>
-					<a href="#">Новини</a>
-				</li>
-				<li>
-					<a href="#">Събития</a>
-				</li>
-				<li>
-					<a href="#">Курсове</a>
-				</li>
-				<li>
-					<a href="#">Стажове</a>
-				</li>
-				<li>
-					<a href="#">ЗА НАС</a>
-				</li>
-				<li>
-					<a href="#">ЗА НАС</a>
-				</li>
-				<li>
-					<a href="#">ЗА НАС</a>
-				</li>
-			</ul>
-		</div>
-		<div class="list">
-			<ul>
-				<li>
-					<a href="#">Новини</a>
-				</li>
-				<li>
-					<a href="#">Събития</a>
-				</li>
-				<li>
-					<a href="#">Курсове</a>
-				</li>
-				<li>
-					<a href="#">Стажове</a>
-				</li>
-				<li>
-					<a href="#">ЗА НАС</a>
-				</li>
-				<li>
-					<a href="#">ЗА НАС</a>
-				</li>
-				<li>
-					<a href="#">ЗА НАС</a>
-				</li>
-			</ul>
-		</div>
-		<div id="social">
+			<div id="social">
 			<a href="http://facebook.com" target="_blank">
 				<i class="fa fa-facebook-square faa-bounce animated fa-3x" aria-hidden="true"></i>
 			</a>
@@ -326,14 +253,37 @@
 			 	<i class="fa fa-google-plus-square faa-bounce animated fa-3x" aria-hidden="true"></i>
 			</a>
 		</div>
+		<div class="list">
+			<ul>
+				<li>
+					<a href="#">Новини</a>
+				</li>
+				<li>
+					<a href="#">Събития</a>
+				</li>
+				<li>
+					<a href="#">Курсове</a>
+				</li>
+				<li>
+					<a href="#">Стажове</a>
+				</li>
+				<li>
+					<a href="#">ЗА НАС</a>
+				</li>
+				<li>
+					<a href="#">ЗА НАС</a>
+				</li>
+				<li>
+					<a href="#">ЗА НАС</a>
+				</li>
+			</ul>
+		</div>
+		<p>Copyright by Иван, Теодосий, Гери, Хафи, Петя</p>
 	</div>
 	</footer>
 		<!--Script-->
 		
-
-		
 		<script src="scripts/jquery.flexslider.js"></script>
-
 		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   		<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
   		<script src="scripts/jquery.flexslider.js"></script>
@@ -346,7 +296,7 @@
 			    customDirectionNav: $(".custom-navigation a")
 			  });
 			});
-			<!--divhide-->
+			/*divhide*/
 			$(document).ready(function() {
     
    				 /* Every time the window is scrolled ... */
@@ -371,96 +321,15 @@
     
 });
 			/*Formscript*/
-			$( function() {
-    var dialog, form,
- 
-      // From http://www.whatwg.org/specs/web-apps/current-work/multipage/states-of-the-type-attribute.html#e-mail-state-%28type=email%29
-      emailRegex = /^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/,
-      name = $( "#name" ),
-      email = $( "#email" ),
-      password = $( "#password" ),
-      allFields = $( [] ).add( name ).add( email ).add( password ),
-      tips = $( ".validateTips" );
- 
-    function updateTips( t ) {
-      tips
-        .text( t )
-        .addClass( "ui-state-highlight" );
-      setTimeout(function() {
-        tips.removeClass( "ui-state-highlight", 1500 );
-      }, 500 );
-    }
- 
-    function checkLength( o, n, min, max ) {
-      if ( o.val().length > max || o.val().length < min ) {
-        o.addClass( "ui-state-error" );
-        updateTips( "Length of " + n + " must be between " +
-          min + " and " + max + "." );
-        return false;
-      } else {
-        return true;
-      }
-    }
- 
-    function checkRegexp( o, regexp, n ) {
-      if ( !( regexp.test( o.val() ) ) ) {
-        o.addClass( "ui-state-error" );
-        updateTips( n );
-        return false;
-      } else {
-        return true;
-      }
-    }
- 
-    function addUser() {
-      var valid = true;
-      allFields.removeClass( "ui-state-error" );
- 
-      valid = valid && checkLength( name, "username", 3, 16 );
-      valid = valid && checkLength( email, "email", 6, 80 );
-      valid = valid && checkLength( password, "password", 5, 16 );
- 
-      valid = valid && checkRegexp( name, /^[a-z]([0-9a-z_\s])+$/i, "Username may consist of a-z, 0-9, underscores, spaces and must begin with a letter." );
-      valid = valid && checkRegexp( email, emailRegex, "eg. ui@jquery.com" );
-      valid = valid && checkRegexp( password, /^([0-9a-zA-Z])+$/, "Password field only allow : a-z 0-9" );
- 
-      if ( valid ) {
-        $( "#users tbody" ).append( "<tr>" +
-          "<td>" + name.val() + "</td>" +
-          "<td>" + email.val() + "</td>" +
-          "<td>" + password.val() + "</td>" +
-        "</tr>" );
-        dialog.dialog( "close" );
-      }
-      return valid;
-    }
- 
-    dialog = $( "#dialog-form" ).dialog({
-      autoOpen: false,
-      height: 400,
-      width: 350,
-      modal: true,
-      buttons: {
-        "Create an account": addUser,
-        Cancel: function() {
-          dialog.dialog( "close" );
-        }
-      },
-      close: function() {
-        form[ 0 ].reset();
-        allFields.removeClass( "ui-state-error" );
-      }
-    });
- 
-    form = dialog.find( "form" ).on( "submit", function( event ) {
-      event.preventDefault();
-      addUser();
-    });
- 
-    $( "#create-user" ).button().on( "click", function() {
-      dialog.dialog( "open" );
-    });
-  } );
+			$(document).ready(function(){
+			  $('#login-trigger').click(function(){
+			    $(this).next('#login-content').slideToggle();
+			    $(this).toggleClass('active');          
+			    
+			    if ($(this).hasClass('active')) $(this).find('span').html('&#x25B2;')
+			      else $(this).find('span').html('&#x25BC;')
+			    })
+			});
 		</script>
 		
 
