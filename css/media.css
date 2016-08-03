@@ -1,0 +1,171 @@
+@media all and (max-width: 1270px) and (min-width: 1150px){
+	#logo {
+	    width: 14%;
+	    
+	}
+	.event-box {
+    	width: 29%;
+	}
+	#social {
+		width: 28%;
+	}
+	#fulllist p {
+    	width: 50%;
+	}
+}
+@media all and (max-width: 1150px) and (min-width: 1023px) {
+	#main-nav ul {
+    	width: 72%;
+	}
+	#main-nav ul li {
+		margin-left: 7px;
+	}
+	.event-box {
+   		 width: 28%;
+	}
+	#social {
+	   
+	    width: 31%;
+	}
+	#fulllist p {
+    	width: 56%;
+	}
+}
+@media all and (max-width: 1023px) and (min-width: 890px){
+	
+	#main-nav ul {
+    width: 75%;
+}
+	.reg {
+   		 margin-top: 30px;
+   	}
+	.event-box {
+    	width: 42%;
+	}
+
+	#facebook {
+	    width: 29%;
+	    margin-right: 85px;
+	}
+
+
+	#social {
+    	width: 37%;
+	}
+}
+@media all and (max-width: 890px) and (min-width: 640px) {
+
+	.event-box {
+    	width: 44%;
+    }
+    .courses{
+    	height: 704px;
+    }
+    .courses-box {
+    	height: 143px;
+    }
+    .courses-pic img {
+    	width: 27%;
+	}
+	#news {
+    
+    width: 100%;
+	}
+	#main-footer {
+    	height: 690px;
+    }
+	#fulllist{
+		width: 100%;
+    	float: none;
+    	padding-top: 17px;
+	}
+	#social{
+		width: 35%;
+	}
+	#facebook {
+    	width: 57%;
+	}
+}
+
+
+/*Hamburger*/
+
+@media screen and (max-width:890px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+
+@media screen and (max-width:890px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+  .icon a {
+  	padding-right: 30px
+  }
+  .reg{
+  	display: none;
+  }
+  #src{
+    position: fixed;
+    top: 32px;
+    left: 194px;
+  }
+  #main-nav ul {
+    width: 44%;
+    float: right;
+}
+}
+
+
+@media all and (max-width: 640px) {
+	.event-box {
+    	width: 70%;
+    	margin-left: 62px;
+	}
+	.courses{
+		height:  929px;
+	}
+	.courses-box{
+		    height: 199px;
+	}
+	
+	.courses-pic img {
+    	    width: 43%;
+	}
+	#fulllist{
+		width: 100%;
+	}
+	#social{
+		width: 43%;
+	}
+	#fulllist p {
+    	width: 72%;
+	}
+	#facebook {
+    	width: 40%;
+	}
+	#main-footer{
+		height: 609px;
+	}
+}
+
+
+
+
+
+

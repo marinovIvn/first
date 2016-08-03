@@ -1,0 +1,563 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.clear {
+				content: "";
+				display: block;
+				clear: both;
+}
+
+body{
+	background: #fff;
+}
+#main-header{
+width: 100%;
+height: 80px; 
+z-index: 1;
+	position: fixed;
+	top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.7);
+	box-shadow: 4px 10px 24px;
+}
+#logo{
+	
+	width: 20%;
+	float: left;
+	margin-left: 25px;
+    margin-top: 17px;
+
+}	
+	#logo img{
+		width: 170px;
+	}
+.menuIcon{
+	display: none;
+}
+#main-nav{
+	
+}
+
+#main-nav ul {
+ 	width: 75%;
+}
+#main-nav ul li{
+		
+	margin-left: 37px;
+	margin-top: 37px;
+}
+#main-nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.6em;
+	font-variant: small-caps;
+	font-family: arial;
+}
+#main-nav ul li a:hover{
+	color: rgb(26,162,225);
+}
+		/*Search*/
+@import "//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css";
+					
+
+					
+	#src{
+		position:relative;
+    	float: right;
+    	margin-top: -3px;
+		}
+
+	[class^="icon-"]{
+		float: right;
+    	margin-right: 30px;
+		background: #3498db;
+		color:#fff;
+		border-radius:5px;
+		display:inline-block;
+		padding:6px 7px 7px;
+		font-size:18px;
+		text-shadow:1px 1px 2px #21638F;
+		box-shadow: inset 0px 0px 0px #21638F;
+		transition:all 0.5s ease;
+		-webkit-transition:all 0.5s ease;
+		cursor: pointer;
+		z-index:10;
+		position:relative;
+		}
+	[class^="icon-"]:hover{
+		background: #5dade2;
+		text-shadow:0px 0px 0px #21638F;
+		box-shadow: inset 0px 0px 8px #21638F;
+		transition:all 0.5s ease;
+		-webkit-transition:all 0.5s ease;
+		}
+	.search_form{
+		background: #464748;;
+		position:absolute;
+		z-index:0;
+		padding:0px 5px;
+		right:0;
+		top:15px;
+		border-radius:10px;
+		width: 20px;
+		height:0px;
+		transition: height 0.2s ease-out 0.5s , top 0.2s ease-out 0.5s, padding 0.2s ease-out 0.5s, width 0.3s ease-out 0.2s;
+		-webkit-transition: height 0.2s ease-out 0.5s , top 0.2s ease-out 0.5s, padding 0.2s ease-out 0.5s, width 0.3s ease-out 0.2s;
+		}
+	.search_form form{
+		opacity:0;
+		transition:all 0.3s ease-out;
+		-webkit-transition:all 0.3s ease-out;
+		}
+	.search_form input{
+		background:#fff;
+		border:none;
+		}
+	.search_form input[type='text']{
+		border-radius:5px 0 0 5px;
+		width:150px;
+		margin:0px 50px 0px 0;
+		padding:0px 5px 1px;
+		min-height:23px;
+		}
+	.sub {
+		float: right;
+    	margin-top: -24px;
+		}
+	.search_form input[type='submit']{
+		border-radius:0 5px  5px 0;
+		text-transform:uppercase;
+		font-size:11px;
+		padding:0px 5px;
+		min-height:24px;
+		cursor: pointer;
+		}
+	.search_box{
+		visibility: hidden;
+		}
+	.search_box:checked~.search_form{
+		width: 213px;
+		height:24px;
+		padding:5px;
+		z-index: 1;
+		top: 54px;
+    	right: 20px;
+		transition: height 0.2s ease-out, top 0.2s ease-out, padding 0.2s ease-out, 0.3s width ease-out 0.2s;
+		-webkit-transition: height 0.2s ease-out, top 0.2s ease-out, padding 0.2s ease-out, 0.3s width ease-out 0.2s;
+		}
+	.search_box:checked~.search_form form{
+		opacity:1;
+		transition:0.3s all ease-out 0.5s;
+		-webkit-transition:0.3s all ease-out 0.5s;
+		}
+
+									/*endSrc*/
+								
+.headline{
+	text-align: center;
+	font-size: 2.5em;
+	font-family: arial;
+	margin-bottom: 20px;
+	}
+#hideme{
+	width: 80%;
+   	margin: 0 auto;
+	}
+	       
+.hide{
+	opacity: 0;
+}
+
+	.event-box{
+			width: 23%;
+			height: 350px;
+			background: rgb(39,40,34);
+			float: left;
+			margin-left: 17px;
+			text-align: center;
+			border-radius: 5px;
+			margin-bottom: 15px;
+			border: 2px solid rgb(26,162,225);
+
+		}
+		.event-box img{
+			width: 80%;
+			height: 210px;
+			margin-top: 18px;
+			border-radius: 5px;
+		}
+			
+				.event-box p{
+					    color: #fff;
+    					font-size: 1em;
+    					font-family: arial;
+   						margin-bottom: 13px;
+   						padding-left: 10px;
+    					padding-right: 10px;
+    					padding-top: 10px;
+    					line-height: 22px;
+				}
+					.event-box a {
+						    text-decoration: underline;
+    						color: rgb(26,162,225);
+    						border-radius: 6px;
+					}
+
+
+.banner{
+	width: 78%;
+    margin: 0 auto;
+	height: 100px;
+    border: 1px solid #000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+ .banner img{
+ 	width: 100%;
+ 	height: 100px;
+ 	border-radius: 10px;
+
+ }
+.courses{
+	width: 100%; 
+    background: #464343;
+    padding-top: 5px;
+    height: 668px;
+    
+}	
+	.courses h2{
+		text-align: center;
+		color: rgb(26,162,225);
+		font-size: 2.5em;
+		font-family: arial;
+	}
+		.courses-box{
+			width: 78%;
+			margin: 0 auto;
+		    height: 131px;
+		    background: #fff;
+		    margin-top: 14px;
+		    border-radius: 10px;
+		    background: #464343;
+		    border: 1px solid #fff;
+		    color: #fff;
+		}
+			.courses-info {
+				padding-top: 20px;
+				font-style: italic;
+			}
+				.courses-info h3{
+					padding-bottom: 5px;
+					font-size: 1.2em;
+					font-weight: bold;
+				}
+					.courses-pic img{
+						width: 16%;
+			    		height: 112px;
+			    		padding: 9px;
+			  			float: left;
+			   			
+			   			background:  #464343;
+			   			border-radius: 15px;
+
+					}
+						.courses-info p{
+							margin-bottom: 10px;
+						}
+						.courses-info a {
+							margin-top: 10px;
+							color: #fff;
+						}
+#news {
+	    background: #fff;
+	    width: 78%;
+   		margin: 0 auto;
+    	
+    	
+}
+	#news a{
+		color: #000;
+		margin-left: 15px;
+	}
+		#news date{
+			float: right;
+			margin-right: 15px;
+		}
+#main-footer{
+	background: rgba(0,0,0,0.7);
+	height: 400px;
+	margin-top: 40px;
+	 
+}
+	#main-footer .list {
+		margin: 0 auto;
+		width: 75%;
+		margin-top: 25px
+		
+	}
+		#main-footer ul li {
+			padding-top: 20px;
+			display: inline-block;
+			margin-left: 25px;
+		}
+			#main-footer ul li a{
+				color: #fff;
+				text-decoration: none;
+
+
+			}
+#social {
+	padding-top: 60px;
+	margin: 0 auto;
+	width: 25%;
+}
+	#social a {
+		display: inline-block;
+		text-decoration: none;
+		color: #fff;
+		margin-left: 15px;	
+	}
+	#fulllist{
+		padding-top: 60px;
+		width: 60%;
+		float: left;
+	}
+		#fulllist p {
+		    width: 40%;
+			margin: 0 auto;
+			color: #fff;
+			margin-top: 60px;
+   
+		}
+
+/*regiaterform*/
+.reg{
+	margin-top: -20px;
+margin-right: 14px;
+}
+
+
+
+		.reg ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  float: right;
+  background: #eee;
+  border-bottom: 1px solid #fff;
+  border-radius: 3px;    
+  background: #afc0cc;
+}
+
+.reg li {
+  float: left;          
+}
+
+.reg #login {
+  border-right: 1px solid #ddd;
+  box-shadow: 1px 0 0 #fff;  
+}
+
+.reg #login-trigger,
+.reg #signup a {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  height: 25px;
+  line-height: 25px;
+  font-weight: bold;
+  padding: 0 8px;
+  text-decoration: none;
+  color: #444;
+  text-shadow: 0 1px 0 #fff; 
+}
+
+.reg #signup a {
+  border-radius: 0 3px 3px 0;
+}
+
+.reg #login-trigger {
+  border-radius: 3px 0 0 3px;
+}
+
+.reg #login-trigger:hover,
+.reg #login .active,
+.reg #signup a:hover {
+  background: #fff;
+}
+
+.reg #login-content {
+  display: none;
+  position: absolute;
+  top: 24px;
+  right: 0;
+  z-index: 999;    
+  background: #fff;
+  background-image: linear-gradient(top, #fff, #eee);  
+  padding: 15px;
+  box-shadow: 0 2px 2px -1px rgba(0,0,0,.9);
+  border-radius: 3px 0 3px 3px;
+}
+
+.reg li #login-content {
+  right: 0;
+  width: 250px;  
+}
+
+/*--------------------*/
+
+#inputs input {
+  background: #f1f1f1;
+  padding: 6px 5px;
+  margin: 0 0 5px 0;
+  width: 238px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-shadow: 0 1px 1px #ccc inset;
+}
+
+#inputs input:focus {
+  background-color: #fff;
+  border-color: #e8c291;
+  outline: none;
+  box-shadow: 0 0 0 1px #e8c291 inset;
+}
+
+/*--------------------*/
+
+#login #actions {
+  margin: 10px 0 0 0;
+}
+
+#login #submit {    
+  background-color: #d14545;
+  background-image: linear-gradient(top, #e97171, #d14545);
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  text-shadow: 0 1px 0 rgba(0,0,0,.5);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;    
+  border: 1px solid #7e1515;
+  float: left;
+  height: 30px;
+  padding: 0;
+  width: 100px;
+  cursor: pointer;
+  font: bold 14px Arial, Helvetica;
+  color: #fff;
+}
+
+#login #submit:hover,
+#login #submit:focus {    
+  background-color: #e97171;
+  background-image: linear-gradient(top, #d14545, #e97171);
+} 
+
+#login #submit:active {   
+  outline: none;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;   
+}
+
+#login #submit::-moz-focus-inner {
+  border: none;
+}
+
+#login label {
+  float: right;
+  line-height: 30px;
+}
+
+#login label input {
+  position: relative;
+  top: 2px;
+  right: 2px;
+}
+
+#facebook{
+	
+	width: 25%;
+	margin-right: 150px;
+	margin-top: 60px;
+	float: right;
+	
+}
+	#facebook img {
+		width: 100%;
+		border-radius: 10px;
+		border: 3px solid rgb(26, 162, 225);
+	}
+
+/*Hamburger*/
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+/* Float the list items side by side */
+ul.topnav li {float: left;}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    
+    text-decoration: none;
+    transition: 0.3s;
+    
+}
+
+ul.topnav li a:hover {background-color: #555;}
+ul.topnav li.icon {display: none;}
+
+
+
+
+
+
