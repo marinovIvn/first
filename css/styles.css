@@ -49,6 +49,7 @@ table {
 
 body{
 	background: #fff;
+	font-family: arial;
 }
 #main-header{
 width: 100%;
@@ -92,6 +93,7 @@ z-index: 1;
 	font-size: 1.6em;
 	font-variant: small-caps;
 	font-family: arial;
+	border-radius: 5px;
 }
 #main-nav ul li a:hover{
 	color: rgb(26,162,225);
@@ -332,7 +334,7 @@ z-index: 1;
 }
 	#main-footer .list {
 		margin: 0 auto;
-		width: 52%;
+		width: 54%;
 		margin-top: 25px
 		
 	}
@@ -386,9 +388,9 @@ margin-right: 14px;
   position: relative;
   float: right;
   background: #eee;
-  border-bottom: 1px solid #fff;
+  
   border-radius: 3px;    
-  background: #afc0cc;
+
 }
 
 .reg li {
@@ -414,9 +416,7 @@ margin-right: 14px;
   text-shadow: 0 1px 0 #fff; 
 }
 
-.reg #signup a {
-  border-radius: 0 3px 3px 0;
-}
+
 
 .reg #login-trigger {
   border-radius: 3px 0 0 3px;
@@ -553,7 +553,7 @@ ul.topnav li a {
     
 }
 
-ul.topnav li a:hover {background-color: #555;}
+ul.topnav li a:hover {background-color: grey;}
 ul.topnav li.icon {display: none;}
 
 
