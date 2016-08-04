@@ -332,7 +332,7 @@ z-index: 1;
 }
 	#main-footer .list {
 		margin: 0 auto;
-		width: 75%;
+		width: 52%;
 		margin-top: 25px
 		
 	}
@@ -517,8 +517,8 @@ margin-right: 14px;
 
 #facebook{
 	
-	width: 25%;
-	margin-right: 150px;
+	
+	margin-right: 25px;
 	margin-top: 60px;
 	float: right;
 	

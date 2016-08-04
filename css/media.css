@@ -82,9 +82,9 @@
 	#social{
 		width: 35%;
 	}
-	#facebook {
-    	width: 57%;
-	}
+	#facebook{
+    margin-right:  217px;
+  }
 }
 
 
@@ -128,6 +128,10 @@
   #main-nav ul {
     width: 44%;
     float: right;
+    background: rgba(0,0,0,0.7);
+      border-radius: 10px;
+      padding-left: 10px;
+      padding-bottom: 15px;
 }
 }
 
@@ -162,6 +166,89 @@
 	#main-footer{
 		height: 609px;
 	}
+}
+@media all and (max-width: 640px) and (min-width: 320px){
+
+	#main-header {
+    	height: 132px;
+}
+	#main-nav ul {
+    	width: 53%;
+    /* float: right; */
+   		position: relative;
+    	top: 62px;
+      right: 84px;
+    	background: rgba(0,0,0,0.7);
+    	border-radius: 10px;
+    	padding-left: 10px;
+      padding-bottom: 15px;
+	}
+  #main-nav ul li {
+    margin-top: 25px;
+    margin-left: 24px;
+  }
+  #logo {
+    margin-left: 85px;
+    margin-top: 11px;
+  }
+  #src {
+    
+    top: 27px;
+    left: 245px;
+  }
+	#social {
+    width: 55%;
+}
+.event-box {
+    width: 76%;
+    margin-left: 38px;
+    }
+    #facebook {
+    margin-right: 120px;
+}
+	.flexslider {
+   
+    margin-top: 140px;
+	}
+  .courses {
+    height: 999px;
+}
+  .courses-box {
+    height: 219px;
+  }
+}
+@media all and (max-width: 320px) and (min-width: 300px){
+	#main-nav ul {
+    width: 68%;
+    right: 49px;
+    position: relative;
+    top: 2px;
+}
+#logo {
+    margin-left: 57px;
+  }
+#src {
+    top: 26px;
+    left: 223px;
+    }
+#social {
+    width: 58%;
+    }
+    .flexslider {
+  
+    margin-top: 127px;
+	}
+  .courses {
+    height: 1066px;
+}
+  .courses-box {
+    height: 231px;
+}
+#facebook{
+
+    margin-right: 103px;
+
+}
 }
 
 
