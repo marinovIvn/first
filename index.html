@@ -10,18 +10,20 @@
 		<link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
   		<link rel="stylesheet" href="/resources/demos/style.css">
   		<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+  		<link rel="stylesheet" type="text/css" href="css/media.css">
+  		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  		<meta name="keywords" content="It,It-maina,maina,news, It news, Събития, Новини, Курсове, За нас">
 
 
 	</head>
 	<body>
 
-	<header id="main-header">
+	<header  id="main-header">
 		<nav id="main-nav">
-			<div id="logo">
-				<img src="images/it logo1.png">
-			</div>
-
-			<ul>
+				<div id="logo">
+					<img src="images/it logo1.png">
+				</div>
+			<ul class="topnav" id="myTopnav">
 				<li>
 					<a  href="#">Новини</a>
 				</li>
@@ -37,48 +39,44 @@
 				<li>
 					<a href="#">ЗА НАС</a>
 				</li>
+				<li class="icon">
+   			 		<a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+  				</li>
 			</ul>
 		</nav>
-<nav class="reg">
-  <ul>
-    <li id="login">
-      <a id="login-trigger" href="#">
-        Log in <span>▼</span>
-      </a>
-      <div id="login-content">
-        <form>
-          <fieldset id="inputs">
-            <input id="username" type="email" name="Email" placeholder="Your email address" required>   
-            <input id="password" type="password" name="Password" placeholder="Password" required>
-          </fieldset>
-          <fieldset id="actions">
-            <input type="submit" id="submit" value="Log in">
-            <label><input type="checkbox" checked="checked"> Keep me signed in</label>
-          </fieldset>
-        </form>
-      </div>                     
-    </li>
-    <li id="signup">
-      <a href="">Sign up FREE</a>
-    </li>
-  </ul>
-</nav>
+		<nav class="reg">
+		  <ul>
+		    <li id="login">
+		      <a id="login-trigger" href="#">
+		        Log in <span>▼</span>
+		      </a>
+		      <div id="login-content">
+		        <form>
+		          <fieldset id="inputs">
+		            <input id="username" type="email" name="Email" placeholder="Your email address" required>   
+		            <input id="password" type="password" name="Password" placeholder="Password" required>
+		          </fieldset>
+		          <fieldset id="actions">
+		            <input type="submit" id="submit" value="Log in">
+		            <label><input type="checkbox" checked="checked"> Keep me signed in</label>
+		          </fieldset>
+		        </form>
+		      </div>                     
+		    </li>
+		   	 
+		  </ul>
+		</nav>
 			<!--Search-->
-						<div id="src" class="search">
-  							<input class="search_box" type="checkbox" id="search_box">
-  							<label class="icon-search" for="search_box"></label>
-  						<div class="search_form">
+		<div id="src" class="search">
+  			<input class="search_box" type="checkbox" id="search_box">
+  			<label class="icon-search" for="search_box"></label>
+  				<div class="search_form">
     				<form action="#">
       					<input type="text"><input class="sub" type="submit" value="search">
     				</form>
-  						</div>
-						</div>
-
-
+  				</div>
+		</div>
 			<!--endSearch-->
-		
-		
-		
 	</header>
 
 	<section id="main-content">
@@ -92,7 +90,7 @@
 				      <img src="images/test2.jpg" />
 				    </li>
 				    <li>
-				      <img src="images/asd.jpg" />
+				      <img src="images/asd.png" />
 				    </li>
 				  </ul>
 				</div>
@@ -111,7 +109,7 @@
 					<a href="#" class="btn">Прочети още...</a>
 				</div>
 				<div class="event-box">
-					<img src="images/event2.JPG">
+					<img src="images/event2.jpg">
 					<p>OpenFest 2016<br>ДАТА: 05.11.2016</p>
 					<a href="#" class="btn">Проч
 					ети още...</a>
@@ -137,7 +135,7 @@
 					<a href="#" class="btn">Прочети още...</a>
 				</div>
 				<div class="event-box">
-					<img src="images/event7.JPG">
+					<img src="images/event7.jpg">
 					<p>Защо да работя в IT сферата?<br>ДАТА: 11.08.2016</p>
 					<a href="#" class="btn">Прочети още...</a>
 				</div>
@@ -185,7 +183,7 @@
 			
 				<div class="courses-box">
 					<div class="courses-pic">
-						<img src="images/courses3.JPG">
+						<img src="images/courses3.jpg">
 					</div>
 					<div class="courses-info">
 						<h3>Курс по основи на програмирането със C#</h3>
@@ -197,10 +195,10 @@
 		
 				<div class="courses-box">
 					<div class="courses-pic">
-						<img src="images/courses4.JPG">
+						<img src="images/courses4.jpg">
 					</div>
 					<div class="courses-info">
-						<h3>Курс Linux системна администрация за напреднали</h3>
+						<h3>Курс Linux системна нистрация за напреднали</h3>
 						<p>Курсът представлява продължение на курса „Linux системна администрация“. </p>
 						<p><a href="http://www.img-academy.com/obuchenia/kurs-linux-za-naprednali/" target="_blank">Img-ITacademy Plovdiv</a></p>
 					</div>
@@ -269,16 +267,11 @@
 				<li>
 					<a href="#">ЗА НАС</a>
 				</li>
-				<li>
-					<a href="#">ЗА НАС</a>
-				</li>
-				<li>
-					<a href="#">ЗА НАС</a>
-				</li>
+				
 			</ul>
 			
 		</div>
-		<p>Copyright by Иван, Теодосий, Гери, Хафи, Петя</p>
+		<p>Copyright by Иван, Теодосии, Гери, Хафи, Петя</p>
 	</div>
 		<div id="facebook">
 				<img src="images/facebook.jpg">
@@ -314,13 +307,13 @@
                 
                 $(this).animate({'opacity':'1'},800);
                     
-            }
+            		}
             
-        }); 
+        		}); 
     
-    });
+    		});
     
-});
+		});
 			/*Formscript*/
 			$(document).ready(function(){
 			  $('#login-trigger').click(function(){
@@ -331,6 +324,17 @@
 			      else $(this).find('span').html('&#x25BC;')
 			    })
 			});
+
+			/*Hamburger*/
+
+			function myFunction() {
+			    var x = document.getElementById("myTopnav");
+			    if (x.className === "topnav") {
+			        x.className += " responsive";
+			    } else {
+			        x.className = "topnav";
+			    }
+			}
 		</script>
 		
 
