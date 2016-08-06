@@ -392,6 +392,10 @@ margin-right: 14px;
   border-radius: 3px;    
 
 }
+.register{
+	margin-left: 55px;
+	color: #000;
+}
 
 .reg li {
   float: left;          
