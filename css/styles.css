@@ -580,7 +580,7 @@ ul.topnav li.icon {display: none;}
 
 
 
-/*about_us page styles*/
+/* start - about_us page styles*/
 #page_header_module{
 	font-family: Arial;
 }
@@ -709,3 +709,4 @@ ul.topnav li.icon {display: none;}
 	margin: 0;
 	}
 }
+/* end - about_us page styles*/
