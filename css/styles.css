@@ -63,7 +63,7 @@ table {
 }
 
 body{
-	background: #fff;
+
 	font-family: arial;
 }
 #main-header{
@@ -344,7 +344,7 @@ z-index: 1;
 #main-footer{
 	background: rgba(0,0,0,0.7);
 	height: 400px;
-	margin-top: 40px;
+	
 	 
 }
 	#main-footer .list {
@@ -711,11 +711,7 @@ ul.topnav li.icon {display: none;}
 }
 /* end - about_us page styles*/
 /*register form*/
-html {
-	height: 100%;
-	background: 
-		linear-gradient(rgba(196, 102, 0, 0.6), rgba(155, 89, 182, 0.6));
-}
+
 
 #msform {
 	width: 400px;
@@ -825,6 +821,7 @@ html {
 /* Courses styles */
 #main-content {
 	padding-top: 2px;
+	margin-bottom: 100px;
 }
 .banner-course{
 	width: 78%;
