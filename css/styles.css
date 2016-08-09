@@ -575,7 +575,13 @@ ul.topnav li a {
 ul.topnav li a:hover {background-color: grey;}
 ul.topnav li.icon {display: none;}
 
-
+#page_header_module_events{
+	background: url('../images/events_banner.jpg') no-repeat;
+	background-size: cover;
+	padding: 190px 0 90px 0;
+	text-align: center;
+	margin-bottom: 70px;
+}
 
 
 
