@@ -670,7 +670,59 @@ ul.topnav li.icon {display: none;}
   	justify-content: center;
 }
 #meet_our_team .team_item:hover .team_desc{
-	top: 0;
+	bottom: 0;
+}
+#grid li{
+	position: relative;
+	overflow: hidden;
+}
+#grid li:hover .team_desc{
+	bottom: 0;
+}
+#grid li .team_desc{
+	background: rgba(153, 179, 255, 0.5);
+	padding: 30px;
+	box-sizing: border-box;
+	height: 100%;
+	position: absolute;
+	bottom: -100%;
+	left: 0;
+	display: block;
+	-moz-transition: bottom 0.5s;
+	-webkit-transition: bottom 0.5s; /* Safari */
+    transition: bottom 0.5s;
+    display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+
+#grid li:nth-child(even) .team_desc{
+	background: rgba(153, 179, 255, 0.5);
+	padding: 30px;
+	box-sizing: border-box;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	right: -100%;
+	left: auto;
+	display: block;
+	-moz-transition: right 0.5s;
+	-webkit-transition: right 0.5s; /* Safari */
+    transition: right 0.5s;
+    display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+#grid li:nth-child(even):hover .team_desc{
+	right: 0;
+	left: auto;
+}
+
+#grid .team_desc p{
+	color: #ffffff;
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
 }
 
 #meet_our_team .team_desc p{
