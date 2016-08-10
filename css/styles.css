@@ -1008,6 +1008,14 @@ ul.topnav li.icon {display: none;}
 						line-height: 20px;
 						color: #464343;	
 				}
+	.courses-pics img:hover {
+		opacity: 0.5;
+    	filter: alpha(opacity=50); /* For IE8 and earlier */
+	}
+	.courses-pic-white img:hover {
+		opacity: 0.5;
+    	filter: alpha(opacity=50); /* For IE8 and earlier */
+	}
 	.certificate {
 		width: 80%;
 		margin: 0 auto;
